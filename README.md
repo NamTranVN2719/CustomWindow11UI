@@ -1,4 +1,4 @@
-# CustomWindow11UI
+# CustomWindow11UI (Saint Cecilia theme from the series Saint Cecilia and Pastor Lawrence)
 
 CustomWindow11UI is a demonstration project that showcases how to personalize the Windows 11 user interface with a polished, themed experience.
 
@@ -9,6 +9,8 @@ This project combines multiple tools to customize the Windows 11 interface, incl
 ## Theme
 
 The UI customization is built around the "Saint Cecilia" theme, inspired by the Saint Cecilia and Pastor Lawrence series.
+<img width="1920" height="1080" src="https://github.com/user-attachments/assets/9362c1f4-2da7-46c1-b4f9-00e90db01be7" />
+
 
 ## Included Tools
 
