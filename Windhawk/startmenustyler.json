@@ -148,5 +148,12 @@
     "controlStyles[39].styles[0]": "Background:=$Background",
 
     "controlStyles[40].target": "Windows.UI.Xaml.Controls.Grid#MainContent",
-    "controlStyles[40].styles[0]": "Background:=$ColorFill"
+    "controlStyles[40].styles[0]": "Background:=$ColorFill",
+
+    "controlStyles[41].target": "StartMenu.FolderIcon > Windows.UI.Xaml.Controls.Border",
+    "controlStyles[41].styles[0]": "Background:=$ColorFill",
+
+    "controlStyles[42].target": "StartMenu.FolderView > Windows.UI.Xaml.Controls.Border",
+    "controlStyles[42].styles[0]": "Background:=$Glass",
+    "controlStyles[42].styles[1]": "CornerRadius=8"
 }
