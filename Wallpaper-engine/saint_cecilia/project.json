@@ -1,0 +1,58 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "",
+	"file" : "scene.json",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"newproperty" : 
+			{
+				"index" : 1,
+				"order" : 101,
+				"text" : "体积光",
+				"type" : "bool",
+				"value" : true
+			},
+			"schemecolor" : 
+			{
+				"order" : 0,
+				"text" : "ui_browse_properties_scheme_color",
+				"type" : "color",
+				"value" : "0.5843137254901961 0.7372549019607844 0.6235294117647059"
+			},
+			"timeanddate" : 
+			{
+				"index" : 0,
+				"options" : 
+				[
+					{
+						"label" : "ON",
+						"value" : "1"
+					},
+					{
+						"label" : "OFF",
+						"value" : "0"
+					}
+				],
+				"order" : 100,
+				"text" : "Time and Date",
+				"type" : "combo",
+				"value" : "1"
+			}
+		},
+		"supportsaudioprocessing" : true
+	},
+	"preview" : "preview.jpg",
+	"ratingsex" : "none",
+	"ratingviolence" : "none",
+	"snapshotformat" : -1,
+	"snapshotoverlay" : "",
+	"tags" : [ "Anime" ],
+	"title" : "Ceci",
+	"type" : "scene",
+	"version" : 30,
+	"visibility" : "public",
+	"workshopid" : "2940340277",
+	"workshopurl" : "steam://url/CommunityFilePage/2940340277"
+}

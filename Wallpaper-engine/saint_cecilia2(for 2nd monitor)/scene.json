@@ -1,0 +1,363 @@
+{
+	"camera" : 
+	{
+		"center" : "0.00000 0.00000 -1.00000",
+		"eye" : "0.00000 0.00000 0.00000",
+		"up" : "0.00000 1.00000 0.00000"
+	},
+	"general" : 
+	{
+		"ambientcolor" : "0.30000 0.30000 0.30000",
+		"bloom" : true,
+		"bloomhdrfeather" : 0.1,
+		"bloomhdriterations" : 8,
+		"bloomhdrscatter" : 1.619,
+		"bloomhdrstrength" : 2.0,
+		"bloomhdrthreshold" : 1.0,
+		"bloomstrength" : 0.33000001,
+		"bloomthreshold" : 0.99000001,
+		"bloomtint" : "1.00000 1.00000 1.00000",
+		"camerafade" : true,
+		"cameraparallax" : false,
+		"cameraparallaxamount" : 
+		{
+			"user" : "newproperty1",
+			"value" : 0.079999998
+		},
+		"cameraparallaxdelay" : 
+		{
+			"user" : "newproperty2",
+			"value" : 1.25
+		},
+		"cameraparallaxmouseinfluence" : 
+		{
+			"user" : "newproperty3",
+			"value" : 0.079999998
+		},
+		"camerapreview" : true,
+		"camerashake" : false,
+		"camerashakeamplitude" : 0.5,
+		"camerashakeroughness" : 1.0,
+		"camerashakespeed" : 3.0,
+		"clearcolor" : "0.70000 0.70000 0.70000",
+		"clearenabled" : true,
+		"farz" : 10000.0,
+		"fov" : 50.0,
+		"gravitydirection" : "0.00000 -1.00000 0.00000",
+		"gravitystrength" : 1.0,
+		"hdr" : false,
+		"nearz" : 0.0099999998,
+		"orthogonalprojection" : 
+		{
+			"height" : 1440,
+			"width" : 2560
+		},
+		"perspectiveoverridefov" : 95.0,
+		"skylightcolor" : "0.30000 0.30000 0.30000",
+		"winddirection" : "0.70700 0.70700 0.00000",
+		"windenabled" : false,
+		"windstrength" : 1.0,
+		"zoom" : 1.0
+	},
+	"objects" : 
+	[
+		{
+			"castshadow" : false,
+			"clampuvs" : true,
+			"disablepropagation" : false,
+			"effects" : 
+			[
+				{
+					"file" : "effects/godrays/effect.json",
+					"id" : 244,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.97000003,
+								"noisescale" : 0.0099999998,
+								"noisesmoothness" : 0.2,
+								"noisespeed" : 0.059999999,
+								"raythreshold" : 0.86000001
+							},
+							"id" : 245,
+							"textures" : [ null, "masks/godrays_downsample2_mask_f17768bf", null ]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"center" : "0.5 0.5",
+								"color" : "1 1 1",
+								"rayintensity" : 0.33000001,
+								"raylength" : 0.76999998
+							},
+							"id" : 246
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"blurscale" : "1 1"
+							},
+							"id" : 247
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"blurscale" : "1 1"
+							},
+							"id" : 248
+						},
+						{
+							"id" : 249
+						}
+					],
+					"visible" : 
+					{
+						"user" : "newproperty",
+						"value" : true
+					}
+				}
+			],
+			"id" : 228,
+			"image" : "models/5.json",
+			"name" : "5",
+			"origin" : "1280.00000 720.00000 0.00000",
+			"scale" : "0.43117 0.43117 1.00000",
+			"size" : "6336.00000 3360.00000",
+			"visible" : false
+		},
+		{
+			"castshadow" : false,
+			"clampuvs" : true,
+			"disablepropagation" : false,
+			"effects" : 
+			[
+				{
+					"file" : "effects/godrays/effect.json",
+					"id" : 62,
+					"name" : "",
+					"passes" : 
+					[
+						{
+							"constantshadervalues" : 
+							{
+								"noiseamount" : 0.97000003,
+								"noisescale" : 0.0099999998,
+								"noisesmoothness" : 0.2,
+								"noisespeed" : 0.059999999,
+								"raythreshold" : 0.86000001
+							},
+							"id" : 0,
+							"textures" : [ null, "masks/godrays_downsample2_mask_f17768bf", null ]
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"center" : "0.5 0.5",
+								"color" : "1 1 1",
+								"rayintensity" : 0.33000001,
+								"raylength" : 0.76999998
+							},
+							"id" : 64
+						},
+						{
+							"constantshadervalues" : 
+							{
+								"blurscale" : "1 1"
+							},
+							"id" : 65
+						},
+						{
+							"combos" : 
+							{
+								"VERTICAL" : 1
+							},
+							"constantshadervalues" : 
+							{
+								"blurscale" : "1 1"
+							},
+							"id" : 66
+						},
+						{
+							"id" : 67
+						}
+					],
+					"visible" : 
+					{
+						"user" : "newproperty",
+						"value" : true
+					}
+				}
+			],
+			"id" : 219,
+			"image" : "models/bg.json",
+			"name" : "bg",
+			"origin" : "1280.00000 720.00000 0.00000",
+			"size" : "2560.00000 1440.00000"
+		},
+		{
+			"disablepropagation" : false,
+			"id" : 29,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.23999999,
+				"id" : 10,
+				"rate" : 0.68000001
+			},
+			"name" : "Fog 1",
+			"origin" : "2019.77673 836.77356 0.00000",
+			"particle" : "particles/presets/fog1.json",
+			"scale" : "2.15103 2.15103 1.29502",
+			"solid" : true
+		},
+		{
+			"alignment" : "bottomright",
+			"castshadow" : false,
+			"clampuvs" : true,
+			"colorBlendMode" : 31,
+			"disablepropagation" : false,
+			"id" : 61,
+			"image" : "models/workshop/2652493753/bar.json",
+			"name" : "Simple Visualizer",
+			"origin" : "-2.92716 62.88579 0.00000",
+			"scale" : "2.36344 2.36344 0.75850",
+			"size" : "4.00000 4.00000",
+			"visible" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2652493753';\n// Please note: Do not remove this line or asset references may break.\n\nexport var scriptProperties = createScriptProperties()\n\t.addSlider({\n\t\tname: 'barWidth',\n\t\tlabel: 'Width粗细',\n\t\tvalue: 5,\n\t\tmin: 0,\n\t\tmax: 10,\n\t\tinteger: false\n\t})\n\t.addSlider({\n\t\tname: 'scaleY',\n\t\tlabel: 'Height高度',\n\t\tvalue: 50,\n\t\tmin: 0,\n\t\tmax: 100,\n\t\tinteger: false\n\t})\n\t\t.addSlider({\n\t\tname: 'originX',\n\t\tlabel: 'Distance距离',\n\t\tvalue: 30,\n\t\tmin: -60,\n\t\tmax: 60,\n\t\tinteger: false\n\t})\n\t.addCombo({\n\t\tname: 'barAlignmentdir',\n\t\tlabel: 'Direction',\n\t\toptions: [{\n\t\t\tlabel: 'Centre',\n\t\t\tvalue: 'centre'\n\t\t}, {\n\t\t\tlabel: 'Bottom',\n\t\t\tvalue: 'bottom'\n\t\t}, {\n\t\t\tlabel: 'Top',\n\t\t\tvalue: 'top'\n\t\t}]\n\t})\n\t.finish();\n\nvar bars = [];\nvar baseOrigin;\nvar baseAngle;\nlet audioData = engine.registerAudioBuffers(64);\n\n\n\n/**\n * @param {Boolean} value（for property 'visible'）\n */\nexport function update() {\n\n\tvar origin = baseOrigin.copy();\n\tvar scale = new Vec3(0 + scriptProperties.barWidth);\n\t\n\tfor (var i = 0; i < 64; ++i) {\n\t\tlet amt = audioData.average[i];\n\t\tlet bar = bars[i];\n\n\t\tscale.y = amt * scriptProperties.scaleY;\n\t\torigin.x += scriptProperties.originX;\n\t\torigin.y += 0;\n\t\tbar.scale = scale;\n\t\tbar.origin = origin;\n\t\tbar.alignment = scriptProperties.barAlignmentdir;\n\t\t\n\t\t}\t\n\t}\n\n\n/**\n * @param {Boolean} value (for property 'visible')\n */\nexport function init() {\n\tbars.push(thisLayer);\n\tlet thisIndex = thisScene.getLayerIndex(thisLayer);\n\tfor (var i = 1; i < 64; ++i) {\n\t\tlet bar = thisScene.createLayer('models/bar.json');\n\t\tbar.alignment = scriptProperties.barAlignmentdir;\n        thisScene.sortLayer(bar, thisIndex);\n        bar.parallaxDepth = new Vec2(0,0);\n        bars.push(bar);\n    }\n\t\t\n\n\tfor (var i = 0; i < 64; ++i) {\n        let angle = 360 * (i / 64);\n        let bar = bars[i];\n        bar.angles = new Vec3(0, 0, 0); //0 + scriptProperties.barAlignment); \n\t}\n\tbaseOrigin = thisLayer.origin;\n}\n\n\n\n",
+				"scriptproperties" : 
+				{
+					"barAlignmentdir" : "bottom",
+					"barWidth" : 0.82999998,
+					"originX" : 10.67,
+					"scaleY" : 24.440001
+				},
+				"value" : true
+			}
+		},
+		{
+			"anchor" : "right",
+			"backgroundbrightness" : 1.0,
+			"backgroundcolor" : "0.00000 0.00000 0.00000",
+			"blockalign" : false,
+			"castshadow" : false,
+			"clampuvs" : true,
+			"depthtest" : "enabled",
+			"disablepropagation" : false,
+			"font" : "fonts/8bitOperatorPlus8-Regular.ttf",
+			"horizontalalign" : "left",
+			"id" : 182,
+			"limitrows" : false,
+			"limituseellipsis" : false,
+			"limitwidth" : false,
+			"maxrows" : 1,
+			"maxwidth" : 500.0,
+			"name" : "VHS Time and Date",
+			"opaquebackground" : false,
+			"origin" : "15.76770 683.13495 0.00000",
+			"padding" : 0,
+			"pointsize" : 41.0,
+			"scale" : "0.49463 0.49463 1.00000",
+			"size" : "1413.00000 196.00000",
+			"text" : 
+			{
+				"script" : "'use strict';\n// Please note: Do not remove this line or asset references may break.\nexport let __workshopId = '2519054915';\n\nexport var scriptProperties = createScriptProperties()\n\t// Whether you want a 24h or 12h style format\n\t.addCheckbox({\n\t\tname: 'use24hFormat',\n\t\tlabel: 'ui_editor_properties_use_24h_format',\n\t\tvalue: true\n\t})\n\t// This will be used to separate each element\n\t.addText({\n\t\tname: 'delimiter',\n\t\tlabel: 'ui_editor_properties_delimiter',\n\t\tvalue: ':'\n\t})\n\t.finish();\n\n/**\n * @param {String} value (for property 'text')\n */\nexport function update(value) {\n\tlet space = \" \";\n\tlet ent = \"\\n\";\n\tlet time = new Date();\n\tlet months = [\n  'Jan.',\n  'Feb.',\n  'Mar.',\n  'Apr.',\n  'May.',\n  'Jun.',\n  'Jul.',\n  'Aug.',\n  'Sep.',\n  'Oct.',\n  'Nov.',\n  'Dec.'\n];\n\tvar hours = time.getHours();\n\tif (!scriptProperties.use24hFormat) {\n\tif (hours < 12) {\n\t\t\tvar meridiem = 'AM';\n\t\t}\n\tif (hours >= 12) {\n\t\t\tvar meridiem = 'PM';\n\t\t}\n\t\thours %= 12;\n\t\tif (hours == 0) {\n\t\t\thours = 12;\n\t\t}\n\t}\n\thours = (\"00\" + hours).slice(-2);\n\tlet minutes = (\"00\" + time.getMinutes()).slice(-2);\n\t//24 hour format off\n\tif (!scriptProperties.use24hFormat) {\n\tvar value = meridiem + space + hours + scriptProperties.delimiter + minutes + ent + months[time.getMonth()] + space + time.getDate() + space + time.getFullYear();\n\t}\n\t//24 hour format on\n\tif (scriptProperties.use24hFormat) {\n\tvar value = hours + scriptProperties.delimiter + minutes + ent + months[time.getMonth()] + space + time.getDate() + space + time.getFullYear();\n\t}\n\treturn value;\n}\n",
+				"scriptproperties" : 
+				{
+					"delimiter" : ":",
+					"use24hFormat" : 
+					{
+						"user" : "_24hourformat",
+						"value" : false
+					}
+				},
+				"value" : "<Time and Date>"
+			},
+			"verticalalign" : "center",
+			"visible" : 
+			{
+				"user" : 
+				{
+					"condition" : "1",
+					"name" : "timeanddate"
+				},
+				"value" : true
+			}
+		},
+		{
+			"disablepropagation" : false,
+			"id" : 194,
+			"maxtime" : 5.0,
+			"mintime" : 1.0,
+			"muteineditor" : true,
+			"name" : "20 親愛なるあの日々へ.flac",
+			"playbackmode" : "loop",
+			"solid" : true,
+			"sound" : [ "sounds/20 親愛なるあの日々へ.flac" ],
+			"startsilent" : false,
+			"volume" : 1.0
+		},
+		{
+			"angles" : "0.00000 -0.00000 2.64747",
+			"disablepropagation" : false,
+			"id" : 50,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.13,
+				"colorn" : "0.58431 0.73725 0.62353",
+				"count" : 0.64999998,
+				"id" : 51,
+				"lifetime" : 1.59,
+				"rate" : 0.28,
+				"size" : 3.72,
+				"speed" : 2.52
+			},
+			"name" : "Ember small",
+			"origin" : "2552.41992 1239.97107 0.00000",
+			"particle" : "particles/presets/ember_small.json",
+			"scale" : "2.69895 3.08895 1.00000",
+			"solid" : true
+		},
+		{
+			"disablepropagation" : false,
+			"id" : 241,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.55000001,
+				"colorn" : "0.71373 0.69412 0.45882",
+				"count" : 0.31999999,
+				"id" : 243,
+				"speed" : 0.67000002
+			},
+			"name" : "bokeh",
+			"origin" : "1214.03467 471.29724 0.00000",
+			"particle" : "particles/workshop/2491377235/presets/dust_motes_0.json",
+			"solid" : true
+		},
+		{
+			"disablepropagation" : false,
+			"id" : 59,
+			"instanceoverride" : 
+			{
+				"alpha" : 0.41,
+				"count" : 1.1799999,
+				"id" : 60,
+				"lifetime" : 1.27,
+				"rate" : 1.34,
+				"size" : 1.1,
+				"speed" : 1.1900001
+			},
+			"name" : "Dust motes",
+			"origin" : "1280.00000 720.00000 0.00000",
+			"particle" : "particles/presets/dust_motes_0.json",
+			"solid" : true
+		}
+	],
+	"version" : 1
+}

@@ -17,6 +17,26 @@ The UI customization is built around the "Saint Cecilia" theme, inspired by the 
 - **Wallpaper Engine**
 - **HackBGRT**
 
+## Important
+
+In the Taskbarsyler.json and Startmenu.json there are custompath to images for the 
+Taskbar Styler:
+- Startmenu icon (Normal, Hover, Active Normal, Active Hover)
+``` Json
+    "controlStyles[41].styles[0]": "Background@InactiveNormal:=<ImageBrush Stretch=\"Uniform\" ImageSource=\"C://Users//nam45//Documents//icon.png\" />",
+    "controlStyles[41].styles[1]": "Background@InactivePointerOver:=<ImageBrush Stretch=\"Uniform\" ImageSource=\"C://Users//nam45//Documents//iconhover.png\" />",
+    "controlStyles[41].styles[2]": "Background@InactivePressed:=<ImageBrush Stretch=\"Uniform\" ImageSource=\"C://Users//nam45//Documents//icon.png\" />",
+    "controlStyles[41].styles[3]": "BorderThickness=0",
+    "controlStyles[41].styles[4]": "Background@ActiveNormal:=<ImageBrush Stretch=\"Uniform\" ImageSource=\"C://Users//nam45//Documents//icon1.png\" />",
+    "controlStyles[41].styles[5]": "Background@ActivePointerOver:=<ImageBrush Stretch=\"Uniform\" ImageSource=\"C://Users//nam45//Documents//iconhover.png\" />",
+    "controlStyles[41].styles[6]": "Background@ActivePressed:=<ImageBrush Stretch=\"Uniform\" ImageSource=\"C://Users//nam45//Documents//icon2.png\" />"
+```
+Startmenu Styler:
+- Startmenu overlay
+``` Json
+"controlStyles[0].styles[4]": "Background:=<ImageBrush ImageSource=\"C:\\Users\\nam45\\Documents\\startmenubg.png\" Stretch=\"UniformToFill\" />"
+```
+Be sure to replace it with your own path!
 ## Purpose
 
 The goal of this project is to demonstrate how Windows 11 can be adapted and styled using third-party utilities and custom themes. It is intended as a reference for creating a unified, customized desktop experience.
