@@ -1,0 +1,85 @@
+theme: SideBySide2
+disableNewStartMenuLayout: newLayoutSideBySide
+styleConstants:
+  - Glass=<WindhawkBlur BlurAmount="15" TintColor="#f8fef1" TintOpacity="0.7" />
+  - ColorFill=<SolidColorBrush Color="#e3ffc3ff" Opacity="0" />
+  - Background=$Glass
+controlStyles:
+  - target: Grid#MainMenu
+    styles:
+      - Width=1300
+  - target: Grid#SideBySidePinnedWrapper
+    styles:
+      - ColumnDefinitions:=<ColumnDefinitionCollection><ColumnDefinition Width="300*"/><ColumnDefinition Width="540*"/></ColumnDefinitionCollection>
+  - target: GridView#AllAppsGrid > Border > Grid#SideBySidePinnedWrapper > ScrollViewer#ScrollViewer
+    styles:
+      - Grid.Column=0
+  - target: ScrollViewer#SideBySidePinnedScrollViewer
+    styles:
+      - Grid.Column=1
+  - target: Grid#SideBySidePinnedWrapper > ScrollViewer > Border#Root > Grid > ScrollContentPresenter > ItemsPresenter > ItemsWrapGrid
+    styles:
+      - Margin=32,0,32,14
+  - target: Grid#AllListHeading > TextBlock#AllListHeadingText
+    styles:
+      - Margin=43,6,12,7
+  - target: Grid#AllListHeading > Microsoft.UI.Xaml.Controls.DropDownButton#ViewSelectionButton
+    styles:
+      - Margin=0,0,32,0
+  - target: Grid#NavPanePlaceholder
+    styles:
+      - Margin=32,0,32,0
+  - target: StartDocked.NavigationPaneView#UserControl > Grid#RootPanel
+    styles:
+      - FlowDirection=1
+  - target: StartDocked.PowerOptionsView#PowerButton
+    styles:
+      - FlowDirection=0
+  - target: ItemsStackPanel > ListViewItem
+    styles:
+      - FlowDirection=0
+  - target: ScrollViewer#SideBySidePinnedScrollViewer
+    styles:
+      - Grid.Column=1
+      - Background:=<ImageBrush ImageSource="C:/Users/nanao/Documents/startmenubg.png" Stretch="UniformToFill" />
+  - target: Windows.UI.Xaml.Controls.Border#AcrylicBorder
+    styles:
+      - Background:=$Glass
+  - target: Windows.UI.Xaml.Controls.Border#AcrylicOverlay
+    styles:
+      - Background=Transparent
+  - target: Windows.UI.Xaml.Controls.Grid#RootGrid
+    styles:
+      - Background=Transparent
+  - target: Windows.UI.Xaml.Controls.Grid#RootContent
+    styles:
+      - Background:=$Background
+  - target: Windows.UI.Xaml.Controls.Grid#MainContent
+    styles:
+      - Background:=$ColorFill
+  - target: StartMenu.FolderIcon > Windows.UI.Xaml.Controls.Grid
+    styles:
+      - Background:=$ColorFill
+  - target: StartMenu.FolderIcon > Windows.UI.Xaml.Controls.Border
+    styles:
+      - Background:=$ColorFill
+  - target: StartMenu.FolderView > Windows.UI.Xaml.Controls.Border
+    styles:
+      - Background:=$Glass
+      - CornerRadius=12
+  - target: StartMenu.FolderView > Windows.UI.Xaml.Controls.Grid
+    styles:
+      - Background=Transparent
+  - target: StartMenu.FolderView Windows.UI.Xaml.Controls.Border#AcrylicOverlay
+    styles:
+      - Background=Transparent
+  - target: StartMenu.FolderView Windows.UI.Xaml.Controls.Border#AcrylicBorder
+    styles:
+      - Background=Transparent
+themeResourceVariables:
+  - ''
+webContentStyles:
+  - target: ''
+    styles:
+      - ''
+webContentCustomJs: ''
